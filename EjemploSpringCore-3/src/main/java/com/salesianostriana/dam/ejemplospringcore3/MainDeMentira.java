@@ -17,7 +17,7 @@ public class MainDeMentira {
 	Y si queremos seleccionar uno a la fuerza Qualifier y el nombre con
 	la primera en minúscula.*/
 	
-	@Autowired @Qualifier("englishSaludator")
+	@Autowired @Qualifier("spanishSaludator")
 	private Saludator saludator;
 	
 	@PostConstruct
